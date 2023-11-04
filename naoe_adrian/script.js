@@ -1,23 +1,39 @@
 function setupCommentSection() {
-  let commentText = document.getElementById("comment-text");
-  let authorInput = document.getElementById("author");
-  let submitButton = document.getElementById("submit-comment");
+  let commentText = document.querySelector("#comment_text");
+  let authorInput = document.querySelector("#author");
+  let submitButton = document.querySelector("#submit_comment");
+  let newComments = document.querySelector("#new_comments");
 
-  commentText.addEventListener("input", function () {
+  commentText.addEventListener("input", () => {
     submitButton.disabled =
       commentText.value.trim() === "" || authorInput.value.trim() === "";
   });
 
-  authorInput.addEventListener("input", function () {
+  authorInput.addEventListener("input", () => {
     submitButton.disabled =
       commentText.value.trim() === "" || authorInput.value.trim() === "";
   });
 
-  submitButton.addEventListener("click", function () {
-    alert("Comment submitted!");
-    commentText.value = "";
-    authorInput.value = "";
-    submitButton.disabled = true;
+  submitButton.addEventListener("click", () => {
+    let author = authorInput.value;
+    let comment = commentText.value;
+    if (author && comment) {
+      let newComment = document.createElement("div");
+      newComment.innerHTML = `
+        <p>
+          <strong>${author}</strong> - ${new Date().toLocaleDateString()}
+        </p>
+        <p>
+          <em>${comment}</em>
+        </p>
+      `;
+
+      newComments.appendChild(newComment);
+
+      commentText.value = "";
+      authorInput.value = "";
+      submitButton.disabled = true;
+    }
   });
 }
 

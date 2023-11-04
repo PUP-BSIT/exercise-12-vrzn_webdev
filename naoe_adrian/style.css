@@ -14,15 +14,11 @@
   z-index: 0;
 }
 
-.socialmedia {
-  text-align: center;
-}
-
 .photo {
   margin: 25px;
 }
 
-.image--cover {
+.image-cover {
   width: 170px;
   height: 170px;
   border: #121212 3px solid;
@@ -38,7 +34,7 @@
 
 .username,
 .profession,
-.locationname,
+.location-name,
 .description {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -89,7 +85,7 @@ body {
   color: #ffffff;
 }
 
-.Hobbies-container {
+.hobbies-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 10px 20px 20px 20px;
@@ -98,7 +94,7 @@ body {
   border-radius: 10px;
 }
 
-.Hobbies-container h2 {
+.hobbies-container h2 {
   font-size: 24px;
   color: white;
   font-weight: bold;
@@ -106,20 +102,21 @@ body {
   text-align: left;
 }
 
-.Hobbies-container ol {
+.hobbies-container ol {
   list-style: none;
   padding: 0;
 }
 
-.Hobbies-container ul {
+.hobbies-container ul {
   list-style: none;
   padding: 0;
 }
-.Hobbies-container li + li {
+
+.hobbies-container li + li {
   margin-top: 1rem;
 }
 
-.Hobbies-container li {
+.hobbies-container li {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -127,21 +124,20 @@ body {
   background: #242424;
   padding: 1.5rem;
   border-radius: 1.5rem;
-  min-width: 350px;
   box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
 }
 
-.Hobbies-container li img {
+.hobbies-container li img {
   max-width: 8rem;
   border-radius: 100%;
   height: auto;
 }
 
-.Hobbies-container li::before {
+.hobbies-container li::before {
   content: "";
 }
 
-.Hobbies-container p {
+.hobbies-container p {
   text-align: justify;
 }
 
@@ -162,9 +158,11 @@ body {
   flex-wrap: wrap;
   gap: 60px;
 }
+
 div h2 {
   text-align: center;
 }
+
 .project-list li {
   list-style-type: none;
   background-color: #272727;
@@ -181,13 +179,14 @@ div h2 {
   display: block;
 }
 
-.testimonials {
+.testimonials,
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 2rem;
 }
 
 .full-boxer {
@@ -219,17 +218,8 @@ div h2 {
   box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.3);
 }
 
-.comment-box1 {
-  width: 500px;
-  background: #282828;
-  padding: 20px;
-  margin: 15px;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.3);
-}
-
-.Profile {
+.profile-tetimonials,
+.profile-goals {
   display: flex;
   align-items: center;
 }
@@ -250,28 +240,30 @@ div h2 {
   object-position: center;
 }
 
-.Name {
+.name {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
 
-.Name strong {
+.name strong {
   color: #ffffff;
   font-size: 18px;
 }
 
-.Name span {
+.name span {
   color: #ffffff;
   margin-top: 2px;
 }
 
-.Testimonials {
+.testimonials {
   margin-bottom: 100px;
 }
+
 .goals-container {
   margin-bottom: 100px;
 }
+
 .comment p,
 .desc-goal p {
   color: #ffffff;
@@ -286,6 +278,7 @@ div h2 {
   text-align: center;
   margin: 0;
 }
+
 .slider-wrapper {
   position: relative;
   max-width: 48rem;
@@ -332,10 +325,12 @@ div h2 {
   opacity: 0.75;
   transition: opacity ease 250ms;
 }
+
 .slider-wrapper p {
   text-align: justify;
   text-indent: 50px;
 }
+
 .slider-nav a:hover {
   opacity: 1;
 }
@@ -358,6 +353,7 @@ div h2 {
   text-align: center;
   margin: 10px;
 }
+
 .my-goals-card p {
   text-align: justify;
 }
@@ -370,8 +366,13 @@ div h2 {
   background-position: center;
   margin-bottom: 10px;
 }
+
 .comment-section {
-  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  width: auto;
   margin: 20px;
   border: 1px solid #ccc;
   padding: 10px;
@@ -379,13 +380,13 @@ div h2 {
 }
 
 .comment {
-  border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
 .comment p {
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .comment-input {
@@ -416,6 +417,7 @@ div h2 {
   padding: 10px 20px;
   cursor: pointer;
 }
+
 .comment-input button:disabled {
   background-color: #ccc;
 }
