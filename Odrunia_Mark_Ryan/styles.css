@@ -5,7 +5,6 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-
 body {
     background: #f0f0f0;
     background-size: 64px 64px;
@@ -59,7 +58,7 @@ h1 {
 
 /* Interests and Hobbies section */
 
-.interestsec {
+.interest-section {
   padding: 10px 10px;
   margin-top: 200px;
   margin-left: 15px;
@@ -91,42 +90,42 @@ h1 {
     height: 350px;
     perspective: 1000px;
     margin: 10px;
-  }
-  
-  .card-inner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  
-  .card:hover .card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .card-front,
-  .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    text-align: center;
-  }
-  
-  .card-front {
-    background-color: #C6DEF1;
-    color: #222;
-    display: flex;
-    align-items: center;
-    border: 10px solid #C6DEF1;
-    border-radius: 10px;
-    justify-content: center;
-    font-size: 30px;
-    transform: rotateY(0deg);
-  }
+}
 
-  .card-front b {
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.card-front {
+  background-color: #C6DEF1;
+  color: #222;
+  display: flex;
+  align-items: center;
+  border: 10px solid #C6DEF1;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 30px;
+  transform: rotateY(0deg);
+}
+
+.card-front b {
     font-size: 50px;
   }
   
@@ -145,7 +144,7 @@ h1 {
 
 /* My Works Section */
 
-.worksec {
+.work-section {
   padding: 10px 10px;
   margin-top: 200px;
   margin-left: 15px;
@@ -231,7 +230,7 @@ h1 {
   color: #f0f0f0;
 }
 
-.mywork {
+.my-work {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -243,7 +242,7 @@ h1 {
 
 /* Testimonials section */
 
-.testimonysec {
+.testimony-section {
   padding: 10px 10px;
   margin-top: 200px;
   margin-left: 15px;
@@ -328,7 +327,7 @@ h1 {
 
 /*Gallery*/
 
-.gallerysec {
+.gallery-section {
   padding: 10px 10px;
   margin-top: 200px;
   margin-left: 15px;
@@ -373,7 +372,7 @@ h1 {
 
 /* Goal section */
 
-.goalsec {
+.goal-section {
   padding: 10px 10px;
   margin-top: 200px;
   margin-left: 15px;
@@ -402,7 +401,7 @@ h1 {
 
 /* Comment Section */
 
-.formsec {
+.form-section {
   padding: 10px 10px;
   margin-top: 50px;
 }
