@@ -380,13 +380,13 @@ div h2 {
 }
 
 .comment {
-  border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
 .comment p {
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .comment-input {
