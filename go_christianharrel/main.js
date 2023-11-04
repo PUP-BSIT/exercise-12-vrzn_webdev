@@ -1,5 +1,5 @@
-let usernameInput = document.getElementById("username");
-let commentInput = document.getElementById("input_comment");
+let usernameInput = document.querySelector("#username");
+let commentInput = document.querySelector("#input_comment");
 let commentButton = document.querySelector(".comment-btn");
 
 usernameInput.addEventListener("input", toggleButtonState);
