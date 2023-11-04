@@ -26,9 +26,9 @@ body{
     color: var(--accent);
 }
 
-.name .givenName, 
+.name .given-name, 
 .interestHobbies span,
-.myWorks span,
+.my-works span,
 .testimonials h2,
 .gallery h2 {
     color: var(--secondary);
@@ -43,15 +43,15 @@ div h2{
     text-align: center;
 }
 
-.interestHobbies,
-.myWorks,
+.interest-hobbies,
+.my-works,
 .testimonials,
 .gallery{
     margin: 150px 20px;
 }
 
-.interestHobbies ul,
-.myWorks ol, .testimonials ul {
+.interest-hobbies ul,
+.my-works ol, .testimonials ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -59,8 +59,8 @@ div h2{
     margin-top: 70px;
 }
 
-.interestHobbies ul li,
-.myWorks ol li, .testimonials ul li{
+.interest-hobbies ul li,
+.my-works ol li, .testimonials ul li{
     list-style-type: none;
     background-color: var(--primary);
     width: 250px;
@@ -72,26 +72,26 @@ div h2{
     flex-direction: column;
 }
 
-.interestHobbies ul li img {
+.interest-hobbies ul li img {
     width: 50px;
     margin-bottom: 20px;
 }
 
-.myWorks ol li{
+.my-works ol li{
     cursor: pointer;
 }
 
-.myWorks ol li a{
+.my-works ol li a{
     font-weight: 800;
     color: #000;
     text-decoration: none;
 }
 
-.myWorks ol li a:hover{
+.my-works ol li a:hover{
     color: var(--secondary);
 }
 
-.myWorks ol li p{
+.my-works ol li p{
     padding: 10px;
     text-align: center;
 }
@@ -101,9 +101,11 @@ div h2{
     height: 165px;
     display: block;
 }
+
 .avatar{
     margin: 20px 20px 10px 20px;
 }
+
 .avatar img, 
 .icon img{
     max-width: 50px;
@@ -236,7 +238,6 @@ div h2{
     gap: 10px;
     margin-top: 20px;
 }
-
 
 @media (min-width: 768px) {
     .goal-container{
