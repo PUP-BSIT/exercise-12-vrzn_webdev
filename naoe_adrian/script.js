@@ -1,19 +1,19 @@
 function setupCommentSection() {
-  let commentText = document.getElementById("comment-text");
-  let authorInput = document.getElementById("author");
-  let submitButton = document.getElementById("submit-comment");
+  let commentText = document.querySelector("#comment_text");
+  let authorInput = document.querySelector("#author");
+  let submitButton = document.querySelector("#submit_comment");
 
-  commentText.addEventListener("input", function () {
+  commentText.addEventListener("input", () => {
     submitButton.disabled =
       commentText.value.trim() === "" || authorInput.value.trim() === "";
   });
 
-  authorInput.addEventListener("input", function () {
+  authorInput.addEventListener("input", () => {
     submitButton.disabled =
       commentText.value.trim() === "" || authorInput.value.trim() === "";
   });
 
-  submitButton.addEventListener("click", function () {
+  submitButton.addEventListener("click", () => {
     alert("Comment submitted!");
     commentText.value = "";
     authorInput.value = "";
