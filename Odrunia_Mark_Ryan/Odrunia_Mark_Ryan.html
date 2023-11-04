@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Odrunia Mark Ryan Page</title>
-    <link rel="icon" href="./Assets/my1.png" type="image/x-icon">
+    <link rel="icon" href="./../img/vrzn.png" type="image/x-icon">
   </head>
   <body>
     <header class="header">
@@ -327,15 +327,18 @@
             </div>
           </div>
           <label for="name">Name:</label>
-          <input type="text" id="full_name" name="name" oninput="commntbtn()" />
+          <input type="text" 
+                id="full_name" 
+                name="name" 
+                oninput="commentButton()" />
           <label for="message">Comment:</label>
           <textarea
             id="story"
             name="message"
             rows="4"
             cols="50"
-            oninput="commntbtn()"></textarea>
-          <button id="btn_comm" disabled>Submit</button>
+            oninput="commentButton()"></textarea>
+          <button id="comment_button" disabled>Submit</button>
         </form>
       </div>
     </div>
