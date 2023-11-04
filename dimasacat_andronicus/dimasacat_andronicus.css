@@ -1,14 +1,17 @@
 *{
     font-family: Helvetica, Arial, sans-serif;
 }
+
 h2{
     margin-bottom: 50px;
     text-align: center;
 }
+
 .container-body{
     background: url('images/finalbg.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
+
 .container-author{
     flex-wrap: wrap;
     align-items: center;
@@ -17,10 +20,12 @@ h2{
     margin-bottom: 75px;
     color: white;
 }
+
 .container-interests{
     margin-bottom: 75px;
     color: white;
 }
+
 .list-interests{
     text-align: justify;
     display: flex;
@@ -31,6 +36,7 @@ h2{
     list-style: none;
     margin-top: 5px;
 }
+
 div.interests-style{
     margin:0 auto;
     margin-left: 20px;
@@ -42,10 +48,12 @@ div.interests-style{
 	border:2px solid #4169E1;
 	border-radius: 8px;
 }
+
 .container-works{
     margin-bottom: 75px;
     color: white;
 }
+
 .list-works{
     text-align: center;
     display: flex;
@@ -54,12 +62,14 @@ div.interests-style{
     flex-wrap: wrap;
     list-style: none;
 }
+
 div.works-style{
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
     text-align: center;
 }
+
 div.works-style a{
     display: inline-block;
     padding: 10px 20px;
@@ -71,14 +81,17 @@ div.works-style a{
     border:2px solid #4169E1;
     transition: background-color 0.3s;
 }
+
 div.works-style a:hover{
     background-color: #0056a4;
 }
+
 .container-testimonials{
     color:white;
     text-align: center;
     margin-bottom: 75px;
 }
+
 .guide-testimonials{
     text-align: right;
     display: flex;
@@ -87,6 +100,7 @@ div.works-style a:hover{
     flex-wrap: wrap;
     margin-top: 5px;
 }
+
 div.testimonials-style{
     color: black;
     margin:0 auto;
@@ -97,20 +111,24 @@ div.testimonials-style{
 	border:2px solid #4169E1;
 	border-radius: 8px;
 }
+
 .container-gallery{
     color: white;
     text-align: center;
     margin-bottom: 50px;
 }
+
 .guide-gallery{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .container-goals{
     color: white;
 }
+
 .guide-goals{
     display: flex;
     justify-content: center;
@@ -118,6 +136,7 @@ div.testimonials-style{
     flex-wrap: wrap;
     margin-top: 5px;
 }
+
 div.goals-style{
     text-align: center;
     margin:0 auto;
@@ -130,11 +149,13 @@ div.goals-style{
 	border:2px solid #4169E1;
 	border-radius: 8px;
 }
+
 .container-comment{
     color: white;
     text-align: center;
     margin-bottom: 75px;
 }
+
 .guide-comment{
     display: flex;
     justify-content: center;
@@ -142,6 +163,7 @@ div.goals-style{
     flex-wrap: wrap;
     margin-top: 5px;
 }
+
 .comment-style{
     color: black;
     margin:0 auto;
@@ -152,12 +174,15 @@ div.goals-style{
 	border:2px solid #4169E1;
 	border-radius: 8px;
 }
+
 .comment-name{
     align-content: center;
 }
+
 .comments{
     text-align: justify;
 }
+
 .comment-inputstyle {
     display: flex;  
     flex-direction: column;
@@ -170,7 +195,6 @@ div.goals-style{
 	padding:25px;
 	border:2px solid #4169E1;
 	border-radius: 8px;
-
 }
 
 .comment-inputstyle input,
@@ -178,6 +202,7 @@ div.goals-style{
 .comment-inputstyle button {
     margin: 15px;
 }
+
 #btn {
     background-color: #4169E1; 
     color: #fff; 
@@ -186,6 +211,7 @@ div.goals-style{
     cursor: pointer;
     border-radius: 5px; 
 }
+
 #btn:disabled {
     background-color: #ccc;
     cursor: not-allowed;
