@@ -1,46 +1,74 @@
-*{
+* {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h2{
+h2 {
     margin-bottom: 50px;
     text-align: center;
+    font-size: small;
+    color: white;
 }
 
-.container-body{
+.container-body {
     background: url('images/finalbg.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
-.container-author{
+h1 {
+    font-size: medium;
+}
+
+.about {
+    font-size: x-small;
+}
+
+.profile-pic {
+   height: 130px;
+   width: 130px; 
+}
+
+.container-author-main {
+    display: flex;
+    justify-content: center;
+}
+
+.container-author {
+    display:flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-bottom: 75px;
     color: white;
+    width: 1000px;
+	background: rgba(0,0,0,.5);
+	padding:25px;
+    border:2px solid #4169E1;
+	border-radius: 8px;
 }
 
-.container-interests{
+.container-interests {
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 75px;
     color: white;
 }
 
-.list-interests{
+.list-interests {
     text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    list-style: none;
     margin-top: 5px;
 }
 
-div.interests-style{
-    margin:0 auto;
+div.interests-style {
+    font-size: xx-small;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-bottom: 20px;
 	width: 400px;
 	background: rgba(0,0,0,.5);
@@ -49,12 +77,12 @@ div.interests-style{
 	border-radius: 8px;
 }
 
-.container-works{
+.container-works {
     margin-bottom: 75px;
     color: white;
 }
 
-.list-works{
+.list-works { 
     text-align: center;
     display: flex;
     justify-content: center;
@@ -63,14 +91,15 @@ div.interests-style{
     list-style: none;
 }
 
-div.works-style{
+div.works-style {
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 50px;
     margin-bottom: 30px;
     text-align: center;
+    font-size: x-small;
 }
 
-div.works-style a{
+div.works-style a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #0074cc;
@@ -82,17 +111,17 @@ div.works-style a{
     transition: background-color 0.3s;
 }
 
-div.works-style a:hover{
+div.works-style a:hover {
     background-color: #0056a4;
 }
 
-.container-testimonials{
+.container-testimonials {
     color:white;
     text-align: center;
     margin-bottom: 75px;
 }
 
-.guide-testimonials{
+.guide-testimonials {
     text-align: right;
     display: flex;
     justify-content: center;
@@ -101,7 +130,8 @@ div.works-style a:hover{
     margin-top: 5px;
 }
 
-div.testimonials-style{
+div.testimonials-style {
+    font-size: x-small;
     color: black;
     margin:0 auto;
     margin-bottom: 20px;
@@ -112,24 +142,30 @@ div.testimonials-style{
 	border-radius: 8px;
 }
 
-.container-gallery{
+.container-gallery {
     color: white;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.guide-gallery{
+.guide-gallery {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.container-goals{
-    color: white;
+.image-gallery {
+    width: 250px;
+    height: 150px;
 }
 
-.guide-goals{
+.container-goals {
+    color: white;
+    margin-top: 100px;
+}
+
+.guide-goals {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +173,8 @@ div.testimonials-style{
     margin-top: 5px;
 }
 
-div.goals-style{
+div.goals-style {
+    font-size: x-small;
     text-align: center;
     margin:0 auto;
     margin-left: 20px;
@@ -150,21 +187,8 @@ div.goals-style{
 	border-radius: 8px;
 }
 
-.container-comment{
-    color: white;
-    text-align: center;
-    margin-bottom: 75px;
-}
-
-.guide-comment{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 5px;
-}
-
-.comment-style{
+.comment-style {
+    font-size: x-small;
     color: black;
     margin:0 auto;
     margin-bottom: 20px;
@@ -175,11 +199,19 @@ div.goals-style{
 	border-radius: 8px;
 }
 
-.comment-name{
+.guide-comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.comment-name {
     align-content: center;
 }
 
-.comments{
+.comments {
     text-align: justify;
 }
 
@@ -190,7 +222,7 @@ div.goals-style{
     text-align: center;
     justify-content: center;
     margin:0 auto;
-	width: 300px;
+	width: 200px;
 	background: rgba(0,0,0,.5);
 	padding:25px;
 	border:2px solid #4169E1;
@@ -201,6 +233,14 @@ div.goals-style{
 .comment-inputstyle textarea,
 .comment-inputstyle button {
     margin: 15px;
+}
+
+#input_name{
+    width: 125px;
+}
+
+#input_comment{
+    width: 150px;
 }
 
 #btn {
@@ -215,4 +255,117 @@ div.goals-style{
 #btn:disabled {
     background-color: #ccc;
     cursor: not-allowed;
+}
+
+@media (min-width: 372px) and (max-width: 700px) {
+    h1 {
+        font-size: x-large;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    .about {
+        font-size: medium;
+    }
+
+    .profile-pic {
+        height: 175px;
+        width: 175px; 
+     }
+
+    div.interests-style {
+        font-size: medium;
+    } 
+
+    div.works-style {
+        font-size: medium;
+    }
+
+    div.testimonials-style {
+        font-size: medium;
+    } 
+
+    .image-gallery {
+        width: 300px;
+        height: 200px;
+    }
+
+    div.goals-style {
+        font-size: medium;
+    }
+
+    .comment-style {
+        font-size: medium;
+    }
+
+    .comment-inputstyle {
+        width: 300px;
+    }
+
+    #input_name{
+        width: 300px;
+    }
+    
+    #input_comment{
+        width: 300px;
+    }
+}
+
+@media (min-width: 701px) {
+    h1 {
+        font-size: xx-large;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    .about {
+        font-size: large;
+    }
+
+    .profile-pic {
+        height: 200px;
+        width: 200px; 
+     }
+
+    div.interests-style {
+        font-size: medium;
+    } 
+
+    div.works-style {
+        font-size: medium;
+    }
+
+    div.testimonials-style {
+        font-size: medium;
+    } 
+
+    .image-gallery {
+        width: 550px;
+        height: 350px;
+    }
+
+    div.goals-style {
+        font-size: medium;
+    }
+
+    .comment-style {
+        font-size: medium;
+    }
+
+    .comment-inputstyle {
+        width: 500px;
+
+    }
+
+    #input_name{
+        width: 400px;
+    }
+    
+    #input_comment{
+        width: 400px;
+    }
 }
