@@ -292,44 +292,50 @@
       </div>
     </div>
   </div>
-    <div class="form-section">
+    
       <div class="form-container">
         <form>
           <div class="comments">
-            <div class="person">
-              <b>Jhean Khendrick C. Galope</b><br/>
+            <p>
+              <b>Jhean Khendrick C. Galope </b>
               <em>
                 Hello Mark! this is my comment and my comment is composed of 
                 words in english. This is awesome and I hope you find love in
                 web development. Let's go go go!
               </em>
-            </div>
-            <div class="person">
-              <b>Adrian B. Naoe</b><br />
+            </p>
+            <p>
+              <b>Adrian B. Naoe</b>
               <em>
                 I just wanna say you're the real deal hardware enthusiast 
                 person. I've learn a lot from you thanks for upgrading 
                 advice when I need to repair or modify my pc or laptops.
               </em>
-            </div>
-            <div class="person">
-              <b>Andronicus R. Dimasacat</b><br />
+            </p>
+              
+            <p>
+              <b>Andronicus R. Dimasacat</b>
               <em>
                 Hey, your goals are quite common but nice, go for it.
               </em>
-            </div>
-            <div class="person">
-              <b>Christian Harrel Y. Go</b><br />
+            </p>
+
+           <p>
+            <b>Christian Harrel Y. Go</b>
               <em>
                 Hope to ride with you soon. Always rember, The most important
                 thing in life will always be family brother. Ride safe!
               </em>
-            </div>
+              <ul id="item_list">
+                
+              </ul>
+           </p>
           </div>
           <label for="name">Name:</label>
           <input type="text" 
                 id="full_name" 
-                name="name" 
+                name="name"
+                placeholder="Enter your name" 
                 oninput="commentButton()" />
           <label for="message">Comment:</label>
           <textarea
@@ -341,7 +347,6 @@
           <button id="comment_button" disabled>Submit</button>
         </form>
       </div>
-    </div>
     <script src="scrpts.js"></script>
   </body>
 </html>
