@@ -1,4 +1,4 @@
-function commntbtn() {
+function commentButton() {
     let name = document.querySelector("#full_name")
     let txtarea = document.querySelector("#story")
 
