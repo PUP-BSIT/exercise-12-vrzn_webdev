@@ -6,7 +6,6 @@ h2 {
     margin-bottom: 50px;
     text-align: center;
     font-size: small;
-    color: white;
 }
 
 .container-body {
@@ -187,32 +186,35 @@ div.goals-style {
 	border-radius: 8px;
 }
 
-.comment-style {
+.comment-style {  
     font-size: x-small;
-    color: black;
     margin:0 auto;
-    margin-bottom: 20px;
-	width: 300px;
-	background-color: white;
-	padding:10px;
-	border:2px solid #4169E1;
-	border-radius: 8px;
+    margin-bottom: 20px;	
 }
 
 .guide-comment {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 5px;
+    border: 2px solid #4169E1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+.comment-style {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
 }
-
+  
 .comment-name {
-    align-content: center;
+    font-weight: bold;
 }
-
+  
 .comments {
-    text-align: justify;
+    margin: 10px 0;
 }
 
 .comment-inputstyle {
@@ -223,7 +225,7 @@ div.goals-style {
     justify-content: center;
     margin:0 auto;
 	width: 200px;
-	background: rgba(0,0,0,.5);
+	background-color: #fff;
 	padding:25px;
 	border:2px solid #4169E1;
 	border-radius: 8px;
@@ -240,7 +242,8 @@ div.goals-style {
 }
 
 #input_comment{
-    width: 150px;
+    width: 200px;
+    height: 100px;
 }
 
 #btn {
@@ -310,6 +313,7 @@ div.goals-style {
     
     #input_comment{
         width: 300px;
+        height: 150px;
     }
 }
 
@@ -367,5 +371,6 @@ div.goals-style {
     
     #input_comment{
         width: 400px;
+        height: 200px;
     }
 }
