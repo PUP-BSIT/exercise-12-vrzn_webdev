@@ -4,14 +4,14 @@ const commentBox = document.querySelector("#input_comment");
 const commentContainer = document.querySelector(".comment-container");
 
 const handleInputChange = () => {
-    const nameLength = nameBox.value.length;
-    const commentLength = commentBox.value.length;
+    const nameLength = nameBox.value.trim().length;
+    const commentLength = commentBox.value.trim().length;
     commentBtn.disabled = !(commentLength > 1 && nameLength > 1);
 };
 
 const addComment = () => {
-    const name = nameBox.value;
-    const comment = commentBox.value;
+    const name = nameBox.value.trim();
+    const comment = commentBox.value.trim();
 
     if (name && comment) {
         const newComment = document.createElement("div");
