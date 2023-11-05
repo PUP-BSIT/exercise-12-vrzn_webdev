@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark Ryan Odrunia</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="icon" href="../img/vrzn.png" type="img/x-icon">
+    <link rel="icon" href="./Assets/my1.png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -25,10 +25,10 @@
           <input type="checkbox" id="check" />
           <span class="menu">
             <li><a href="#">Hobbies</a></li>
-            <li><a href="#work">Works</a></li>
-            <li><a href="#testimonial">Testimonials</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#goal">Goals</a></li>
+            <li><a href="#guitar">Works</a></li>
+            <li><a href="#docx">Testimonials</a></li>
+            <li><a href="#dro">Gallery</a></li>
+            <li><a href="#bike">Goals</a></li>
             <label for="check" class="close-menu"
               ><i class="fas fa-times"></i
             ></label>
@@ -62,7 +62,7 @@
           unfolding adventure."</em>
       </div>
       <div class="interest-card">
-        <img src="./Assets/guitaricon.png" alt="guitar icon" />
+        <img src="./Assets/guitaricon.png" alt="guitar icon" id="guitar" />
         <em>"Guitar: Strumming the chords of passion and melody, creating
           harmonies that resonate with the soul."</em>
       </div>
@@ -91,7 +91,7 @@
       </a>
       <a href="#">
         <div class="work-card">
-          <img src="./Assets/docx.svg" alt="work icon" />
+          <img src="./Assets/docx.svg" alt="work icon" id="docx" />
         </div>
       </a>
     </div>
@@ -115,14 +115,14 @@
           hardware exploration."</em>
       </div>
       <div class="testimonial-card">
-        <img src="./Assets/dimasacat.jpg" alt="dimasacat photo" />
+        <img src="./Assets/dimasacat.jpg" alt="dimasacat photo" id="dro" />
         <b>Andronicus Dimasacat</b><br />
         <em>"Mark is an IT genius! He's always there to save the day with his
           tech skills. Truly impressive."</em>
       </div>
     </div>
     <h1 id="gallery">Gallery</h1>
-    <div class="section">
+    <div class="gallery-section">
       <div class="gallery-card">
         <img src="./Assets/Ryan.jpg" alt="work icon" />
       </div>
@@ -139,7 +139,7 @@
         <img src="./Assets/Chess.jpg" alt="work icon" />
       </div>
       <div class="gallery-card">
-        <img src="./Assets/Bike.jpg" alt="work icon" />
+        <img src="./Assets/Bike.jpg" alt="work icon" id="bike"/>
       </div>
     </div>
     <h1 id="goal">Goals</h1>
@@ -172,6 +172,28 @@
       </div>
     </div>
     <div class="comment-box">
+      <h1>Leave a comment</h1>
+      <form class="comment-form">
+        <input
+          id="full_name"
+          type="text"
+          placeholder="Enter your name"
+          oninput="commentButton()"
+        />
+        <textarea
+          id="story"
+          rows="10"
+          placeholder="Write your comment"
+          oninput="commentButton()"
+        ></textarea>
+        <button
+          id="comment_button"
+          type="button"
+          disabled
+          onclick="commentForm()">
+          Submit
+        </button>
+      </form>
       <div class="comments">
         <p>
           <b>Jhean Khendrick C. Galope </b>
@@ -216,29 +238,6 @@
           </p>
         </p>
       </div>
-      <div id="content"></div>
-      <p>Leave a comment</p>
-      <form class="comment-form">
-        <input
-          id="full_name"
-          type="text"
-          placeholder="Enter your name"
-          oninput="commentButton()"
-        />
-        <textarea
-          id="story"
-          rows="10"
-          placeholder="Write your comment"
-          oninput="commentButton()"
-        ></textarea>
-        <button
-          id="comment_button"
-          type="button"
-          disabled
-          onclick="commentForm()">
-          Submit
-        </button>
-      </form>
     </div>
     <script src="scripts.js"></script>
   </body>
