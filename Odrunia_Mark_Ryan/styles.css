@@ -16,7 +16,6 @@ body {
   padding-bottom: 20px;
 }
 
-
 .nav-bar {
   width: 100%;
   display: flex;
@@ -105,6 +104,46 @@ body {
   display: none;
 }
 
+.profile-section img {
+  width: 300px;
+  height: 300px;
+}
+
+.profile-section {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  background-color: #00adb5;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.profile-card b {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: #222831;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f7f7;
+  margin: 40px 40px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+  width: 600px;
+  height: 300px;
+}
+
 #hobby {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -121,8 +160,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 70px 20px 50px 20px;
-  margin-bottom: 20px;
+  margin: 70px 20px 50px 20px;
 }
 
 .interest-card {
