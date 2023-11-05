@@ -1,10 +1,14 @@
-# <div align="center">🚀 VRZN GROUP 🚀</div>
+<div align="center">
 
-## <div align="center">👋 WELCOME TO OUR REPOSITORY 👋</div>
+# 🚀 VRZN GROUP 🚀
 
-### <div align="center">WEBSITE URL</div>
+## 👋 WELCOME TO OUR REPOSITORY 👋
 
-#### <div align="center"> [Netlify](https://vrzn.netlify.app/) | [Github Pages](https://pup-bsit.github.io/exercise-12-vrzn_webdev/) </div>
+### WEBSITE URL
+
+#### [Netlify](https://vrzn.netlify.app/) | [Github Pages](https://pup-bsit.github.io/exercise-12-vrzn_webdev/)
+
+</div>
 
 <div align="justify">
 
