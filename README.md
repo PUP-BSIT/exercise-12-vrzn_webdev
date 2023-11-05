@@ -2,11 +2,15 @@
 
 ## <div align="center">👋 WELCOME TO OUR REPOSITORY 👋</div>
 
-### <div align="center"> WEBSITE URL </div>
+### <div align="center">WEBSITE URL</div>
 
 #### <div align="center"> [Netlify](https://vrzn.netlify.app/) | [Github Pages](https://pup-bsit.github.io/exercise-12-vrzn_webdev/) </div>
 
-<div align="justify"> Our group **focused** on practicing fundamental concepts essential for creating dynamic and interactive websites. We explored key aspects such as **_HTML_** for structuring web content, **_CSS_** for designing and styling web pages, and **_JavaScript_** for implementing dynamic and responsive features. Through _collaborative efforts_, we gained hands-on experience in creating user-friendly interfaces, optimizing web pages for various devices, and enhancing overall user experience. </div>
+<div align="justify">
+
+Our group **focused** on practicing fundamental concepts essential for creating dynamic and interactive websites. We explored key aspects such as **_HTML_** for structuring web content, **_CSS_** for designing and styling web pages, and **_JavaScript_** for implementing dynamic and responsive features. Through _collaborative efforts_, we gained hands-on experience in creating user-friendly interfaces, optimizing web pages for various devices, and enhancing overall user experience.
+
+ </div>
 
 ---
 
