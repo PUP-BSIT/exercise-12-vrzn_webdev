@@ -1,13 +1,12 @@
-# 🚀 VRZN GROUP 🚀
+# <div align="center">🚀 VRZN GROUP 🚀</div>
 
-## 👋 WELCOME TO OUR REPOSITORY 👋
+## <div align="center">👋 WELCOME TO OUR REPOSITORY 👋</div>
 
-### WEBSITE URL
+### <div align="center"> WEBSITE URL </div>
 
-[Netlify](https://vrzn.netlify.app/) <br>
-[Github Pages](https://pup-bsit.github.io/exercise-12-vrzn_webdev/)
+#### <div align="center"> [Netlify](https://vrzn.netlify.app/) | [Github Pages](https://pup-bsit.github.io/exercise-12-vrzn_webdev/) </div>
 
-Our group **focused** on practicing fundamental concepts essential for creating dynamic and interactive websites. We explored key aspects such as **_HTML_** for structuring web content, **_CSS_** for designing and styling web pages, and **_JavaScript_** for implementing dynamic and responsive features. Through _collaborative efforts_, we gained hands-on experience in creating user-friendly interfaces, optimizing web pages for various devices, and enhancing overall user experience.
+<div align="justify"> Our group **focused** on practicing fundamental concepts essential for creating dynamic and interactive websites. We explored key aspects such as **_HTML_** for structuring web content, **_CSS_** for designing and styling web pages, and **_JavaScript_** for implementing dynamic and responsive features. Through _collaborative efforts_, we gained hands-on experience in creating user-friendly interfaces, optimizing web pages for various devices, and enhancing overall user experience. </div>
 
 ---
 
