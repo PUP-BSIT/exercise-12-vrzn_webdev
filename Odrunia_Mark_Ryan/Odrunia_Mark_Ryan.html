@@ -1,352 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Odrunia Mark Ryan Page</title>
-    <link rel="icon" href="../img/vrzn.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mark Ryan Odrunia</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header class="header">
-      <a href="#" class="logo"
-        ><img
-          src="./Assets/my1.png"
-          alt="myphoto"
-          width="80px"
-          height="80px"
-          id="main"/></a>
-      <a href="#" id="myname">Mark Ryan Odrunia</a>
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <a href="#"><img src="./Assets/my1.png" /></a>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="#">Hobbies</a></li>
+            <li><a href="#work">Works</a></li>
+            <li><a href="#testimonial">Testimonials</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#goal">Goals</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
     </header>
-  <div class="interest-section">
-      <h1 id="hobby">My Interests and Hobbies</h1>
-    <div class="hobbies">
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img
-              src="./Assets/chessicon.png"
-              alt="chessicon"
-              width="100px"
-              height="100px"/>
-          </div>
-          <div class="card-back">
-            <p>"Chess: Where strategy meets passion, 
-              and every move is a masterpiece."</p>
-          </div>
-        </div>
+    <h1 id="hobby">My Interests and Hobbies</h1>
+    <div class="section">
+      <div class="interest-card">
+        <img src="./Assets/foodicon.png" alt="food icon" />
+        <em> "Cooking: Turning ingredients into art, one recipe at a time."</em>
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img
-              src="./Assets/foodicon.png"
-              alt="foodicon"
-              width="100px"
-              height="100px"/>
-          </div>
-          <div class="card-back">
-            <p>"Cooking: Turning ingredients into art, 
-              one recipe at a time."</p>
-          </div>
-        </div>
+      <div class="interest-card">
+        <img src="./Assets/bikeicon.png " alt="bike icon" />
+        <em>
+          "Cycling: A ride connecting you to the world through two wheels."
+        </em>
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img
-              src="./Assets/bikeicon.png"
-              alt="bikeicon"
-              width="100px"
-              height="100px"/>
-          </div>
-          <div class="card-back">
-            <p>"Cycling: A thrilling ride that fuels your spirit, 
-              connecting you to the world through two wheels."</p>
-          </div>
-        </div>
+      <div class="interest-card">
+        <img src="./Assets/chessicon.png" alt="chess icon" />
+        <em
+          >"Chess: Where strategy and passion create masterpieces in every
+          move."</em
+        >
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img
-              src="./Assets/vidicon.png"
-              alt="vidicon"
-              width="100px"
-              height="100px"/>
-          </div>
-          <div class="card-back">
-            <p>"Watching Movies: Where every frame is a window 
-              into another world, and every story is an adventure 
-              waiting to unfold."</p>
-          </div>
-        </div>
+      <div class="interest-card">
+        <img src="./Assets/vidicon.png" alt="vid icon" />
+        <em
+          >"Movies: Every frame paints a new world, and every story is an
+          unfolding adventure."</em
+        >
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img
-              src="./Assets/guitaricon.png"
-              alt="guitaricon"
-              width="100px"
-              height="100px"
-            />
-          </div>
-          <div class="card-back">
-            <p>"Guitar: Strumming the chords of passion and melody, 
-              creating harmonies that resonate with the soul."</p>
-          </div>
-        </div>
+      <div class="interest-card">
+        <img src="./Assets/guitaricon.png" alt="guitar icon" />
+        <em
+          >"Guitar: Strumming the chords of passion and melody, creating
+          harmonies that resonate with the soul."</em
+        >
       </div>
     </div>
-  </div>
-  <div class="work-section">
     <h1 id="work">My Works</h1>
-    <div class="my-work">
-        <div class="card-work">
-            <div class="align">
-                <span class="red"></span>
-                <span class="yellow"></span>
-                <span class="green"></span>
-            </div>
-            <b><a id="work_id" href="#" alt="work" target="_blank">Work 1</a></b>
-            <p></p>
+    <div class="section">
+      <a href="#">
+        <div class="work-card">
+          <img src="./Assets/laptop.svg" alt="work icon" />
         </div>
-        <div class="card-work">
-            <div class="align">
-                <span class="red"></span>
-                <span class="yellow"></span>
-                <span class="green"></span>
-            </div>
-            <b><a id="work_id" href="#" alt="work" target="_blank">Work 2</a></b>
-            <p></p>
+      </a>
+      <a href="#">
+        <div class="work-card">
+          <img src="./Assets/code.svg" alt="work icon" />
         </div>
-        <div class="card-work">
-            <div class="align">
-                <span class="red"></span>
-                <span class="yellow"></span>
-                <span class="green"></span>
-            </div>
-            <b><a id="work_id" href="#" alt="work" target="_blank">Work 3</a></b>
-            <p></p>
+      </a>
+      <a href="#">
+        <div class="work-card">
+          <img src="./Assets/computer.svg" alt="work icon" />
         </div>
-        <div class="card-work">
-            <div class="align">
-                <span class="red"></span>
-                <span class="yellow"></span>
-                <span class="green"></span>
-            </div>
-            <b><a id="work_id" href="#" alt="work" target="_blank">Work 4</a></b>
-            <p></p>
+      </a>
+      <a href="#">
+        <div class="work-card">
+          <img src="./Assets/screwdriver.svg" alt="work icon" />
         </div>
-        <div class="card-work">
-            <div class="align">
-                <span class="red"></span>
-                <span class="yellow"></span>
-                <span class="green"></span>
-            </div>
-            <b><a id="work_id" href="#" alt="work" target="_blank">Work 5</a></b>
-            <p></p>
+      </a>
+      <a href="#">
+        <div class="work-card">
+          <img src="./Assets/docx.svg" alt="work icon" />
         </div>
+      </a>
     </div>
-</div>
-  <div class="testimony-section">
-    <h1 id="testimony">Testimonials</h1>
-    <div class="gallery">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <p class="title">GO</p>
-            <p>Christian Harrel</p>
-          </div>
-          <div class="flip-card-back">
-            <p class="title"></p>
-            <p>Your passion for web development is truly commendable.</p>
-          </div>
-        </div>
+    <h1 id="testimonial">Testimonials</h1>
+    <div class="section">
+      <div class="testimonial-card">
+        <img src="./Assets/go.jpg" alt="go photo" />
+        <b>Christian Harrel Go</b><br />
+        <em> "Your passion for web development is truly commendable."</em>
       </div>
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <p class="title">GALOPE</p>
-            <p>Jhean Khendrick</p>
-          </div>
-          <div class="flip-card-back">
-            <p class="title"></p>
-            <p>
-              Mark's dedication and passion for his work are truly inspiring.
-            </p>
-          </div>
-        </div>
+      <div class="testimonial-card">
+        <img src="./Assets/jhean.jpg " alt="galope photo" />
+        <b>Jhean Khendrick Galope</b><br />
+        <em
+          >"Mark's dedication and passion for his work are truly inspiring."</em
+        >
       </div>
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <p class="title">NAOE</p>
-            <p>Adrian</p>
-          </div>
-          <div class="flip-card-back">
-            <p class="title"></p>
-            <p>
-              Mark, Hands down to your reparing skills and passion on computer
-              hardware exploration.
-            </p>
-          </div>
-        </div>
+      <div class="testimonial-card">
+        <img src="./Assets/naoe.jpg" alt="naoe photo" />
+        <b>Adrian Naoe</b><br />
+        <em>
+          "Mark, Hands down to your reparing skills and passion on computer
+          hardware exploration."</em
+        >
       </div>
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <p class="title">DIMASACAT</p>
-            <p>Andronicus</p>
-          </div>
-          <div class="flip-card-back">
-            <p class="title"></p>
-            <p>
-              Mark is an IT genius! He's always there to save the day with his
-              tech skills. Truly impressive.
-            </p>
-          </div>
-        </div>
+      <div class="testimonial-card">
+        <img src="./Assets/dimasacat.jpg" alt="dimasacat photo" />
+        <b>Andronicus Dimasacat</b><br />
+        <em
+          >"Mark is an IT genius! He's always there to save the day with his
+          tech skills. Truly impressive."</em
+        >
       </div>
     </div>
-  </div>
-  <div class="gallery-section">
     <h1 id="gallery">Gallery</h1>
-    <div class="gallery">
-        <div class="gallery-item">
-            <img src="./Assets/Ryan.jpg" alt="My Photo" />
-        </div>
-        <div class="gallery-item">
-            <img src="./Assets/Guitar.jpg" alt="Guitar" />
-        </div>
-        <div class="gallery-item">
-            <img src="./Assets/Film.jpg" alt="Movie" />
-        </div>
-        <div class="gallery-item">
-            <img src="./Assets/Food.jpg" alt="Food" />
-        </div>
-        <div class="gallery-item">
-            <img src="./Assets/Chess.jpg" alt="Chess Pieces" />
-        </div>
-        <div class="gallery-item">
-            <img src="./Assets/Bike.jpg" alt="Bike" />
-        </div>
-    </div>
-</div>
-  <div class="goal-section">
-      <h1 id="goal">My Goals</h1>
-    <div class="goal">
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <b>Graduate</b>
-          </div>
-          <div class="card-back">
-            <p>"Empowering Dreams, Achieving Degrees: 
-              The Path to Graduation Success!"</p>
-          </div>
-        </div>
+    <div class="section">
+      <div class="gallery-card">
+        <img src="./Assets/Ryan.jpg" alt="work icon" />
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <b>Work</b>
-          </div>
-          <div class="card-back">
-            <p>"Launching my Career to New Heights: 
-              Pursuing a Fulfilling and Rewarding Job."</p>
-          </div>
-        </div>
+      <div class="gallery-card">
+        <img src="./Assets/Guitar.jpg" alt="work icon" />
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <b>Home</b>
-          </div>
-          <div class="card-back">
-            <p>"Building My Dream Home Brick by Brick: 
-              A Financial Journey to Homeownership."</p>
-          </div>
-        </div>
+      <div class="gallery-card">
+        <img src="./Assets/Food.jpg" alt="work icon" />
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <b>Stability</b>
-          </div>
-          <div class="card-back">
-            <p>"From Dreams to Reality: Securing My Dream House, 
-              Car, and a Life of Stability and Comfort."</p>
-          </div>
-        </div>
+      <div class="gallery-card">
+        <img src="./Assets/Film.jpg" alt="work icon" />
       </div>
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <b>Business</b>
-          </div>
-          <div class="card-back">
-            <p>"Entrepreneurial Aspirations: 
-              Navigating the Path to a Successful Business Venture."</p>
-          </div>
-        </div>
+      <div class="gallery-card">
+        <img src="./Assets/Chess.jpg" alt="work icon" />
+      </div>
+      <div class="gallery-card">
+        <img src="./Assets/Bike.jpg" alt="work icon" />
       </div>
     </div>
-  </div>
-    
-      <div class="form-container">
-        <form>
-          <div class="comments">
-            <p>
-              <b>Jhean Khendrick C. Galope </b>
-              <em>
-                Hello Mark! this is my comment and my comment is composed of 
-                words in english. This is awesome and I hope you find love in
-                web development. Let's go go go!
-              </em>
-            </p>
-            <p>
-              <b>Adrian B. Naoe</b>
-              <em>
-                I just wanna say you're the real deal hardware enthusiast 
-                person. I've learn a lot from you thanks for upgrading 
-                advice when I need to repair or modify my pc or laptops.
-              </em>
-            </p>
-              
-            <p>
-              <b>Andronicus R. Dimasacat</b>
-              <em>
-                Hey, your goals are quite common but nice, go for it.
-              </em>
-            </p>
-
-           <p>
-            <b>Christian Harrel Y. Go</b>
-              <em>
-                Hope to ride with you soon. Always rember, The most important
-                thing in life will always be family brother. Ride safe!
-              </em>
-              <ul id="item_list">
-                
-              </ul>
-           </p>
-          </div>
-          <label for="name">Name:</label>
-          <input type="text" 
-                id="full_name" 
-                name="name"
-                placeholder="Enter your name" 
-                oninput="commentButton()" />
-          <label for="message">Comment:</label>
-          <textarea
-            id="story"
-            name="message"
-            rows="4"
-            cols="50"
-            oninput="commentButton()"></textarea>
-          <button id="comment_button" disabled>Submit</button>
-        </form>
+    <h1 id="goal">Goals</h1>
+    <div class="section">
+      <div class="interest-card">
+        <img src="./Assets/graduate.svg" alt="food icon" />
+        <em>
+          "Empowering Dreams, Achieving Degrees: The Path to Graduation
+          Success!"</em
+        >
       </div>
-    <script src="scrpts.js"></script>
+      <div class="interest-card">
+        <img src="./Assets/job.svg" alt="bike icon" />
+        <em>
+          "Launching my Career to New Heights: Pursuing a Fulfilling and
+          Rewarding Job."
+        </em>
+      </div>
+      <div class="interest-card">
+        <img src="./Assets/house.svg" alt="chess icon" />
+        <em
+          >"Building My Dream Home Brick by Brick: A Financial Journey to
+          Homeownership."</em
+        >
+      </div>
+      <div class="interest-card">
+        <img src="./Assets/car.svg" alt="vid icon" />
+        <em
+          >"From Dreams to Reality: Securing My Dream House, Car, and a Life of
+          Stability and Comfort."</em
+        >
+      </div>
+      <div class="interest-card">
+        <img src="./Assets/business.svg" alt="guitar icon" />
+        <em
+          >"Entrepreneurial Aspirations: Navigating the Path to a Successful
+          Business Venture."</em
+        >
+      </div>
+    </div>
+    <div class="comment-box">
+      <div class="comments">
+        <p>
+          <b>Jhean Khendrick C. Galope </b>
+          <p>
+            <em>
+              Hello Mark! this is my comment and my comment is composed of words
+              in english. This is awesome and I hope you find love in web
+              development. Let's go go go!
+            </em>
+          </p>
+        </p>
+        <p>
+          <b>Adrian B. Naoe</b>
+          <p>
+            <em>
+              I just wanna say you're the real deal hardware enthusiast person.
+              I've learn a lot from you thanks for upgrading advice when I need to
+              repair or modify my pc or laptops.
+            </em>
+          </p>
+        </p>
+        <p>
+          <b>Andronicus R. Dimasacat</b>
+          <p>
+            <em> But she wears short skirts
+              I wear T-shirts
+              She's Cheer Captain, and I'm on the bleachers
+              Dreaming about the day when you wake up and find
+              That what you're looking for has been here the whole time</em>
+          </p>
+        </p>
+        <p>
+          <b>Christian Harrel Y. Go</b>
+          <p>
+            <em>
+              Hope to ride with you soon. Always rember, The most important thing
+              in life will always be family brother. Ride safe!
+            </em>
+          </p>
+        </p>
+      </div>
+      <div id="content"></div>
+      <p>Leave a comment</p>
+      <form class="comment-form">
+        <input
+          id="full_name"
+          type="text"
+          placeholder="Enter your name"
+          oninput="commentButton()"
+        />
+        <textarea
+          id="story"
+          rows="10"
+          placeholder="Write your comment"
+          oninput="commentButton()"
+        ></textarea>
+        <button
+          id="comment_button"
+          type="button"
+          disabled
+          onclick="commentForm()"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
