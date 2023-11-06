@@ -337,10 +337,12 @@ body {
 
 h1 {
   color: #222831;
+  
 }
 
 .comments {
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .comments p {
