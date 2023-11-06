@@ -147,7 +147,7 @@ ul li a:hover {
 }
 
 .container .box-container .box,
-.box2 {
+.box-two {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   text-align: center;
@@ -172,7 +172,7 @@ ul li a:hover {
 }
 
 .container .box-container .box,
-.box2:hover {
+.box-two:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.03);
 }
@@ -181,18 +181,18 @@ ul li a:hover {
   background-color: var(--extra-light);
 }
 
-.heading2 {
+.heading-two {
   text-align: center;
   padding-bottom: 15px;
   color: var(--text-dark);
   font-size: 50px;
 }
 
-.box2 {
+.box-two {
   background: var(--primary-color-dark);
 }
 
-.container .box-container .box2 h3 {
+.container .box-container .box-two h3 {
   color: var(--extra-light);
   font-size: 22px;
   padding: 10px 0;
