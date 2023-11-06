@@ -171,19 +171,19 @@ div h2{
     display: flex;
 }
 
-.goal1{
+.goal-one{
     grid-area: goal1;
 }
 
-.goal2{
+.goal-two{
     grid-area: goal2;
 }
 
-.goal3{
+.goal-three{
     grid-area: goal3;
 }
 
-.goal4{
+.goal-four{
     grid-area: goal4;
 }
 
