@@ -72,7 +72,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 0;
-  height: 2px;
+  height: 4px;
   background-color: #00adb5;
   transition: 0.4s ease-in-out;
 }
@@ -108,6 +108,7 @@ body {
 
 .section {
   display: flex;
+
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -135,8 +136,8 @@ body {
 .profile-card b {
   font-family:cursive;
   font-weight: bold;
-  font-size: 40px;
-  margin-bottom: 15px;
+  font-size: 45px;
+  margin-bottom: 30px;
   color: #222831;
 }
 
@@ -285,7 +286,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 70px 20px 50px 20px;
+  margin-top: 70px;
   width: 100%;
 }
 
@@ -471,10 +472,25 @@ body {
     margin: 0 20px;
   }
 
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f7f7;
+    margin: 40px 40px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 600px;
+    height: 250px;
+  }
+
   .profile-card b {
     font-family:cursive;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 32px;
     margin-bottom: 15px;
     color: #222831;
   }
@@ -532,6 +548,32 @@ body {
   .work-card img {
     width: 80px;
     height: 80px;
+  }
+
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f7f7;
+    margin: 10px 40px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 250px;
+    height: 225px;
+  }
+
+  .testimonial-card b, 
+  .testimonial-card em {
+    font-size: 15px;
+  }
+  
+  .testimonial-card img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
   }
 
   .goal-card {
