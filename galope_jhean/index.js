@@ -6,7 +6,7 @@ const commentContainer = document.querySelector(".comment-container");
 const handleInputChange = () => {
     const nameLength = nameBox.value.trim().length;
     const commentLength = commentBox.value.trim().length;
-    commentBtn.disabled = !(commentLength > 1 && nameLength > 1);
+    commentBtn.disabled = !(commentLength && nameLength);
 };
 
 const addComment = () => {
