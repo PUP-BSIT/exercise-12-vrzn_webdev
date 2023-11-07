@@ -3,7 +3,7 @@ function commentButton() {
   let txtarea = document.querySelector("#story");
   let commentButton = document.querySelector("#comment_button");
 
-  if (name.value.length > 0 && txtarea.value.length > 0) {
+  if (name.value.trim().length > 0 && txtarea.value.trim().length > 0) {
     commentButton.disabled = false;
   } else {
     commentButton.disabled = true;
