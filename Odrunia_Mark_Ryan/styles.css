@@ -43,6 +43,11 @@ body {
   width: 90px;
   height: 90px;
   margin-left: 30px;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
 }
 
 .menu {
@@ -59,6 +64,11 @@ body {
   padding-left: 30px;
   margin-right: 10px;
   font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.menu li:hover {
+  transform: scale(1.1);
 }
 
 .menu li a {
@@ -122,8 +132,13 @@ body {
 }
 
 .profile-section img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  transition: transform 0.3s ease-out;
+}
+
+.profile-section img:hover {
+  transform: scale(1.1);
 }
 
 .profile-section {  
@@ -136,7 +151,7 @@ body {
   background-color: #00adb5;
   width: 100%;
   padding-top: 200px;
-  padding-bottom: 100px;
+  padding-bottom: 180px;
 }
 
 .profile-card b {
@@ -190,6 +205,11 @@ body {
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
   width: 600px;
   height: 250px;
+  transition: transform 0.3s ease;
+}
+
+.interest-card:hover {
+  transform: scale(1.1);
 }
 
 .interest-card img {
@@ -222,6 +242,11 @@ body {
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
   width: 250px;
   height: 250px;
+  transition: transform 0.3s ease;
+}
+
+.work-card:hover {
+  transform: scale(1.1);
 }
 
 .work-card img {
@@ -306,13 +331,7 @@ body {
 }
 
 .gallery-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: transparent;
-  padding: 20px 20px;
+  padding: 10px 10px;
   border-radius: 20px;
 }
 
@@ -347,6 +366,11 @@ body {
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
   width: 400px;
   height: 250px;
+  transition: transform 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: scale(1.1);
 }
 
 .goal-card img {
@@ -416,10 +440,17 @@ body {
   border: none;
   background-color: transparent;
   padding: 25px;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
   border-radius: 20px;
   cursor: pointer;
-  border: 2px solid #222;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: transform 0.3s ease;
+}
+
+.comment-form button:hover {
+  transform: scale(1.1);
+  background-color: #00adb5;
 }
 
 ::-webkit-scrollbar {
