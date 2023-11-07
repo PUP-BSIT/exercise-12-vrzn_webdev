@@ -471,16 +471,10 @@ body {
     margin: 0 20px;
   }
 
-  .nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .profile-card b {
     font-family:cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 15px;
     color: #222831;
   }
@@ -499,7 +493,6 @@ body {
     height: 150px;
     border-radius: 25px;
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
-  
   }
 
   .interest-card {
@@ -586,5 +579,5 @@ body {
     padding: 0 20px;
     color: #f9f7f7;
   }
-  
+
 }
