@@ -49,6 +49,12 @@ body {
   display: flex;
 }
 
+.menu img {
+  height: 40px;
+  width: 40px;
+  margin: 0 20px;
+}
+
 .menu li {
   padding-left: 30px;
   margin-right: 10px;
@@ -72,7 +78,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 0;
-  height: 4px;
+  height: 3px;
   background-color: #00adb5;
   transition: 0.4s ease-in-out;
 }
@@ -108,7 +114,6 @@ body {
 
 .section {
   display: flex;
-
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
