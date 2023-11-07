@@ -132,8 +132,9 @@ div.works-style a:hover {
 div.testimonials-style {
     font-size: x-small;
     color: black;
-    margin:0 auto;
-    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
 	width: 300px;
 	background-color: white;
 	padding:25px;
@@ -162,6 +163,7 @@ div.testimonials-style {
 .container-goals {
     color: white;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .guide-goals {

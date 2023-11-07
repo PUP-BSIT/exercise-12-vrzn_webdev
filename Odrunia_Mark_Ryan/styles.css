@@ -13,7 +13,7 @@ body {
 .section-bg {
   background-color: #00adb5;
   padding-top: 1px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
 
 .nav-bar {
@@ -106,6 +106,14 @@ body {
   display: none;
 }
 
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 20px 50px 20px;
+}
+
 .profile-section img {
   width: 300px;
   height: 300px;
@@ -125,11 +133,15 @@ body {
 }
 
 .profile-card b {
-  font-family: "Poppins", sans-serif;
+  font-family:cursive;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
   margin-bottom: 15px;
   color: #222831;
+}
+
+.profile-card p {
+  margin-bottom: 10px;
 }
 
 .profile-card {
@@ -156,14 +168,6 @@ body {
   margin-bottom: 35px;
   padding: 0 20px;
   color: #222831;
-}
-
-.section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 70px 20px 50px 20px;
 }
 
 .interest-card {
@@ -218,6 +222,15 @@ body {
   height: 100px;
 }
 
+.work-holder {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 #testimonial {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -244,6 +257,11 @@ body {
   height: 300px;
 }
 
+.testimonial-card b {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .testimonial-card img {
   margin-bottom: 10px;
   width: 100px;
@@ -268,7 +286,16 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 70px 20px 50px 20px;
-  max-width: 100%;
+  width: 100%;
+}
+
+.gallery-holder {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-card {
@@ -277,8 +304,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #dbe2ef;
-  margin: 40px 40px;
+  background-color: transparent;
   padding: 20px 20px;
   border-radius: 20px;
 }
@@ -288,7 +314,6 @@ body {
   height: 300px;
   border-radius: 25px;
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
-
 }
 
 #goal {
@@ -333,11 +358,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 50px;
-}
-
-h1 {
-  color: #222831;
-  
 }
 
 .comments {
@@ -450,5 +470,114 @@ h1 {
     width: 80%;
     margin: 0 20px;
   }
+
+  .profile-card b {
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #222831;
+  }
   
+  .profile-card p {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .profile-card em {
+    font-size: 15px;
+  }
+
+  .gallery-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .interest-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f7f7;
+    margin: 40px 40px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 300px;
+    height: 200px;
+  }
+  
+  .interest-card img {
+    margin-bottom: 10px 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .work-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f7f7;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 150px;
+    height: 150px;
+  }
+  
+  .work-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .goal-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f7f7;
+    margin: 40px 40px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 300px;
+    height: 200px;
+  }
+  
+  .goal-card img {
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .goal-card em {
+    font-size: 15px;
+  } 
+
+  #hobby, #testimonial, #goal {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 20px;
+    color: #222831;
+  }
+
+  #work, #gallery {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    color: #f9f7f7;
+  }
+
 }
