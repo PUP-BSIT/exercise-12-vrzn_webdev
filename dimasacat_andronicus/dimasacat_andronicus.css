@@ -132,8 +132,9 @@ div.works-style a:hover {
 div.testimonials-style {
     font-size: x-small;
     color: black;
-    margin:0 auto;
-    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
 	width: 300px;
 	background-color: white;
 	padding:25px;
@@ -162,6 +163,7 @@ div.testimonials-style {
 .container-goals {
     color: white;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .guide-goals {
@@ -217,7 +219,7 @@ div.goals-style {
     margin: 10px 0;
 }
 
-.comment-inputstyle {
+.comment-input-style {
     display: flex;  
     flex-direction: column;
     align-items: center;
@@ -231,9 +233,9 @@ div.goals-style {
 	border-radius: 8px;
 }
 
-.comment-inputstyle input,
-.comment-inputstyle textarea,
-.comment-inputstyle button {
+.comment-input-style input,
+.comment-input-style textarea,
+.comment-input-style button {
     margin: 15px;
 }
 
@@ -303,7 +305,7 @@ div.goals-style {
         font-size: medium;
     }
 
-    .comment-inputstyle {
+    .comment-input-style {
         width: 300px;
     }
 
@@ -360,7 +362,7 @@ div.goals-style {
         font-size: medium;
     }
 
-    .comment-inputstyle {
+    .comment-input-style {
         width: 500px;
 
     }
