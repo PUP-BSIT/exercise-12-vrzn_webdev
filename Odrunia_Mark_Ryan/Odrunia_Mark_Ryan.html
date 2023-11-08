@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mark Ryan Odrunia</title>
+    <title>Odrunia Mark Ryan Page</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="../img/vrzn.png">
     <link
@@ -19,12 +19,9 @@
     <header>
       <nav>
         <ul class="nav-bar">
-          <li class="logo">
-            <a href="#"><img src="./Assets/my1.png" /></a>
-          </li>
           <input type="checkbox" id="check" />
           <span class="menu">
-            <li><a href="#hobby">
+            <li><a href="#quote">
               <img src="./Assets/hobby.svg" 
                    alt="hobby">Hobbies</a></li>
             <li><a href="#guitar">
@@ -52,16 +49,18 @@
     <div class="profile-section">
       <img src="./Assets/profile.jpg" alt="profile image" id="display">
       <div class="profile-card">
-        <b>Mark Ryan Odrunia</b>
-          <p>Currently a student at Polytechnic University of 
-            the Philippines - Taguig pursuing a Bachelor of Science 
-            degree in Information Technology.</p>
-            <em>"If you want something you've never had, then you must 
-            be willing to do something you've never done."
+        <b id="hi">Hello there! I'm</b> 
+         <b id="name">Mark Ryan Odrunia</b>
+          <p>Student at Polytechnic University of the 
+            Philippines - Taguig pursuing a Bachelor of 
+            Science degree in Information Technology.</p>
+            <em id="quote">"If you want something you've 
+            never had, then you must be willing to do 
+            something you've never done."
           </em>
       </div>
     </div>
-    <h1 id="hobby">My Interests and Hobbies</h1>
+    <h1 id="sec_title" class="hobby">My Interests and Hobbies</h1>
     <div class="section">
       <div class="interest-card">
         <img src="./Assets/foodicon.png" alt="food icon" />
@@ -90,7 +89,7 @@
       </div>
     </div>
     <div class="section-bg">
-      <h1 id="work">My Works</h1>
+      <h1 id="sec_title">My Works</h1>
     <div class="section">
       <div class="work-holder">
         <a href="#">
@@ -121,7 +120,7 @@
       </div>
     </div>
     </div>
-    <h1 id="testimonial">Testimonials</h1>
+    <h1 id="sec_title">Testimonials</h1>
     <div class="section">
       <div class="testimonial-card">
         <img src="./Assets/go.jpg" alt="go photo" />
@@ -148,7 +147,7 @@
       </div>
     </div>
     <div class="section-bg">
-      <h1 id="gallery">Gallery</h1>
+      <h1 id="sec_title">Gallery</h1>
     <div class="gallery-section">
       <div class="gallery-holder">
         <div class="gallery-card">
@@ -172,7 +171,7 @@
       </div>
     </div>
     </div>
-    <h1 id="goal">Goals</h1>
+    <h1 id="sec_title">Goals</h1>
     <div class="section">
       <div class="goal-card">
         <img src="./Assets/graduate.svg" alt="food icon" />
@@ -256,17 +255,19 @@
         />
         <textarea
           id="story"
-          rows="10"
+          rows="3"
           placeholder="Write your comment"
           oninput="commentButton()"
         ></textarea>
-        <button
+        <div>
+          <button
           id="comment_button"
           type="button"
           disabled
           onclick="commentForm()">
           Submit
         </button>
+        </div>
       </form>
     </div>
     <script src="scripts.js"></script>
