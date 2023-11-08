@@ -43,15 +43,32 @@ body {
   width: 90px;
   height: 90px;
   margin-left: 30px;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
 }
 
 .menu {
   display: flex;
 }
 
+.menu img {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 0 0;
+}
+
 .menu li {
   padding-left: 30px;
   margin-right: 10px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.menu li:hover {
+  transform: scale(1.1);
 }
 
 .menu li a {
@@ -72,7 +89,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 0;
-  height: 2px;
+  height: 3px;
   background-color: #00adb5;
   transition: 0.4s ease-in-out;
 }
@@ -87,7 +104,7 @@ body {
   position: absolute;
   color: #222831;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 35px;
   display: none;
 }
 
@@ -115,8 +132,13 @@ body {
 }
 
 .profile-section img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  transition: transform 0.3s ease-out;
+}
+
+.profile-section img:hover {
+  transform: scale(1.1);
 }
 
 .profile-section {  
@@ -129,14 +151,14 @@ body {
   background-color: #00adb5;
   width: 100%;
   padding-top: 200px;
-  padding-bottom: 100px;
+  padding-bottom: 180px;
 }
 
 .profile-card b {
   font-family:cursive;
   font-weight: bold;
-  font-size: 40px;
-  margin-bottom: 15px;
+  font-size: 45px;
+  margin-bottom: 30px;
   color: #222831;
 }
 
@@ -183,6 +205,11 @@ body {
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
   width: 600px;
   height: 250px;
+  transition: transform 0.3s ease;
+}
+
+.interest-card:hover {
+  transform: scale(1.1);
 }
 
 .interest-card img {
@@ -215,6 +242,11 @@ body {
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
   width: 250px;
   height: 250px;
+  transition: transform 0.3s ease;
+}
+
+.work-card:hover {
+  transform: scale(1.1);
 }
 
 .work-card img {
@@ -285,7 +317,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 70px 20px 50px 20px;
+  margin-top: 70px;
   width: 100%;
 }
 
@@ -299,13 +331,7 @@ body {
 }
 
 .gallery-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: transparent;
-  padding: 20px 20px;
+  padding: 10px 10px;
   border-radius: 20px;
 }
 
@@ -340,6 +366,11 @@ body {
   box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
   width: 400px;
   height: 250px;
+  transition: transform 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: scale(1.1);
 }
 
 .goal-card img {
@@ -409,10 +440,17 @@ body {
   border: none;
   background-color: transparent;
   padding: 25px;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
   border-radius: 20px;
   cursor: pointer;
-  border: 2px solid #222;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: transform 0.3s ease;
+}
+
+.comment-form button:hover {
+  transform: scale(1.1);
+  background-color: #00adb5;
 }
 
 ::-webkit-scrollbar {
@@ -434,7 +472,7 @@ body {
   background-color: #191919;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 800px) {
   .menu {
     flex-direction: column;
     align-items: center;
@@ -471,10 +509,25 @@ body {
     margin: 0 20px;
   }
 
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f7f7;
+    margin: 40px 40px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 600px;
+    height: 285px;
+  }
+
   .profile-card b {
     font-family:cursive;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 32px;
     margin-bottom: 15px;
     color: #222831;
   }
@@ -532,6 +585,32 @@ body {
   .work-card img {
     width: 80px;
     height: 80px;
+  }
+
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f7f7;
+    margin: 10px 40px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 250px;
+    height: 225px;
+  }
+
+  .testimonial-card b, 
+  .testimonial-card em {
+    font-size: 15px;
+  }
+  
+  .testimonial-card img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
   }
 
   .goal-card {
