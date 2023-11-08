@@ -2,7 +2,7 @@ function validate() {
     let name = document.querySelector("#input_name").value.trim();
     let comment = document.querySelector("#input_comment").value.trim();
     let commentButton = document.querySelector("#btn");
-    commentButton.disabled = !(name.length > 0 && comment.length > 0);
+    commentButton.disabled = !(name.length && comment.length);
 }
 
 function addComment() {
